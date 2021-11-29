@@ -1,0 +1,166 @@
+/* Formulaires */
+.form {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+}
+
+.account, .admin {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-input {
+    margin: 5px;
+    padding: 0 10px;
+    height: 34px;
+    width: 35%;
+    color: rgb(0, 130, 0);
+    background: black;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+}
+
+.submit-button {
+    position: relative;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.button {
+    position: relative;
+    min-width: 80px;
+    height: 30px;
+    margin: 5px;   
+    color: rgb(0, 130, 0);
+    background-color:black;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+    cursor: pointer;
+}
+
+#retour {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#retour a {
+    color: rgb(0, 130, 0);
+    text-decoration: none;
+}
+
+/*Barre de recherche*/
+.forms-group {
+    position: relative;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);  
+}
+
+.forms-control {
+    width: 80%;
+    height: 30px;
+    color: rgb(0, 130, 0);
+    background-color: black;
+    border: none; 
+}
+
+.forms-control:focus {
+    outline: none;
+}
+
+.btn-primary {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    color: rgb(0, 130, 0);
+    background-color: black;
+    border: none;   
+}
+
+/* Connexion */
+.form-login {
+    position: relative;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+}
+
+.login, .mdp, .conf-mdp{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.login-input, .mdp-input, .conf-mdp-input {
+    margin: 20px;
+    padding: 0 10px;
+    height: 34px;
+    width: 70%;
+    text-align: center;
+    color: rgb(0, 130, 0);
+    background: black;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+}
+
+.erreur {
+    text-align: center;
+    color: rgb(0, 130, 0);
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 130, 0);
+}
+
+/* Retour */
+.return {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.return-button {
+    position: relative;
+    min-width: 80px;
+    height: 30px;
+    margin: 5px;   
+    color: rgb(0, 130, 0);
+    background-color:black;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+    cursor: pointer;
+}
+
+.return-button a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .form-input {
+        width: 75%;
+    }
+} 

@@ -1,0 +1,11 @@
+.divegg {
+    position: relative;
+    width: 200px;
+    margin-left: 70%;
+}
+
+.egg {
+    width: 200px;
+    border: 1px solid;
+    border-color: rgb(0, 130, 0);
+}
